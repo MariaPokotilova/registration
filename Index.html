@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Регистрация</h1>
+   <p class="main-text"> Заполните поля регистрационной формы, если возникнут<br> сложности, обратитесь к <a href="#">администратору</a>.<br>Поля, обозначенные <span class="text-color">&#42;</span> являются обязательными.</p>
+   <form action="registration-form">
+   <div class="main-form">
+   <div class="form">
+   <label class ="all-form login-form" for="n">Логин:<span class="text-color">&#42;</span></label><input class="field" type="text" id="n">
+   <div class="form">
+   </div>
+   <label class ="all-form password-form" for="m">Пароль:<span class="text-color">&#42;</span></label><input class="field" type="password">
+   </div>
+    <div class="form another-form">
+   <label class ="all-form" for="l">Пол:</label><div class="pol"><input type="radio" name ="pol"> Мужской   <input type="radio" name="pol"> Женский</div>
+    </div>
+    </div>
+  <div class="personal-data">
+   <br><input type="checkbox"> Я согласен на обработку и хранение персональных данных<br>
+   <input class = "botton registration-botton" type="submit" value="Регистрация"> <input class = "botton cancel-botton" type="reset" value="Отмена"> 
+    </div>
+</form>
+</body>
+</html>
